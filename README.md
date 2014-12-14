@@ -1,0 +1,1 @@
+See the spec: https://github.com/Sandthorn/sandthorn_event_format/blob/master/spec.md
