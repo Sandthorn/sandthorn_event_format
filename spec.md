@@ -34,7 +34,7 @@ The root level of an event has the following format:
 The value of the `attribute_deltas` key must be an an empty array or an array of maps, each map representing a changed attribute. Each map has the following format:
 
     attribute_name [required] :: String
-    old_value [required] :: Any
+    old_value [optional] :: Any
     new_value [required] :: Any
 
 #### Meta
