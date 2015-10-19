@@ -27,13 +27,12 @@ The root level of an event has the following format:
     server_timestamp [required] :: ISO8601 format String OR language native Date/Time format
     client_timestamp [optional] :: ISO8601 format String OR language native Date/Time format
     meta [optional] :: Map
-    attribute_deltas [required] :: Array
+    attribute_deltas [required] :: Hash
 
 #### Attribute deltas
 
-The value of the `attribute_deltas` key must be an an empty array or an array of maps, each map representing a changed attribute. Each map has the following format:
+The value of the `attribute_deltas` key must be an an empty hash or an hash of maps, each map representing a change where the key in the hash is the attribute that changed. Each map has the following format:
 
-    attribute_name [required] :: String
     old_value [optional] :: Any
     new_value [required] :: Any
 
