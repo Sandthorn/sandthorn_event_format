@@ -22,7 +22,7 @@ The root level of an event has the following format:
     aggregate_version [required] :: Integer
     aggregate_id [required] :: String
     aggregate_type [required] :: String
-    sequence_number [required] :: Integer
+    event_id [required] :: String
     name [required] :: String
     server_timestamp [required] :: ISO8601 format String OR language native Date/Time format
     client_timestamp [optional] :: ISO8601 format String OR language native Date/Time format
