@@ -19,7 +19,7 @@ A Sandthorn event is a map of keys and values.
 
 The root level of an event has the following format:
 
-    aggregate_version [required] :: Integer
+    aggregate_version [optional] :: Integer
     aggregate_id [required] :: String
     aggregate_type [required] :: String
     sequence_number [required] :: Integer
